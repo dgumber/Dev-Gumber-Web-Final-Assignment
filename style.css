@@ -1,0 +1,106 @@
+
+
+@import url('PHOTO URL');
+
+
+img{
+   display: block;
+  margin-left: 600px;
+  margin-right: 500px;
+  margin-top:40px;
+   
+}
+
+.profession{
+    font-family: "Kanit";
+    color:white;
+    margin-top:30px;
+    font-size:18px;
+    text-align: center;
+}
+
+.name{
+    color:white;
+    font-family: "lato";
+    font-size:50px;
+    margin-top:10px;
+    margin-bottom:0px;
+    text-align: center;
+}
+
+.btns{
+    display:flex;
+    margin-left: 600px;
+}
+
+
+.resumebtn, .contactbtn{
+    background-color: rgb(56,56,56);
+    border:black;
+    color: white;
+    padding: 17px 32px;
+    border-radius:25px;
+    text-align: center;
+    font-size: 16px;
+    margin-top:20px;
+    cursor: pointer;
+}
+
+
+
+resumebtn:hover, contactbtn:active {
+  background-color: white;
+}
+
+
+
+body {
+  background-color: black;
+}
+
+
+.row1 {
+    margin-left: 00px;
+  }
+  
+  .column1 {
+    background-color: red;
+    width:530px;
+    margin-left: 38px;
+    margin-top: 22px;
+  }
+  
+
+  
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 11px;  
+    border: 1px solid #ccd; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #7da8e1;
+  }
+  
+  
+  .box {
+    border-radius: 5px;
+    background-color: #5a86de;
+    padding: 20px;
+  }
